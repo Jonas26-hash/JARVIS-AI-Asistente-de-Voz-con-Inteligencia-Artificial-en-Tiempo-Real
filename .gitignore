@@ -1,0 +1,61 @@
+# ── Secrets ──────────────────────────────────────────────
+config/api_keys.json
+config/*_token.json
+config/*.pickle
+*.env
+
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ──────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Local user data ──────────────────────────────────────
+.jarvis/
+memory/
+config/accessibility_config.json
+config/goals.json
+config/morning_brief_state.json
+config/proactive_automations.json
+config/reminders.json
+config/user_profile.json
+config/vision_guardian_state.json
+config/whatsapp_contacts.json
+telegram_in.json
+telegram_out.json
+telegram_state.json
+
+# ── IDE / Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ── Logs / Temp / Cache ──────────────────────────────────
+*.log
+*.tmp
+.cache
+*.pyc.bak
+*.bak
+
+# ── Binaries / Installers ────────────────────────────────
+*.exe
+*.msi
+*.zip
+
+# ── Assets (large) ──────────────────────────────────────
+assets/*.MP3
+assets/*.mp3
+assets/*.wav
